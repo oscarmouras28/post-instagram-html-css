@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    border: 2px;
+    border-color: red;
+    background: black;
+}
+.container{
+    margin: auto;
+    background: white;
+    width: 400px;
+    height: 570px;
+    color:black;
+    padding:0;
+}
+.post-head{
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.profile-pic{
+    margin-top: 5px;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+}
+.post-head h2{
+    margin: 0;
+    width: 20%;
+}
+.post-head P{
+    margin:0px;
+}
+.ellipsis{
+    padding: 2% 0 0 70%;
+    font-size: 30px;
+}
+.post-photo .feed-pic{
+    width: 100%;
+}
+.post-footer .buttons{
+    display:flex;
+    font-size: 30px;
+}
+.post-footer .button-group{
+    padding-left: 2%;
+    width: 91%;
+}
+.post-footer p{
+    margin: 5px;
+}
+.desc{
+    display: flex
+}
+.desc strong{
+    margin: 0px;
+    padding: 0px;
+    height: 0%;
+    float: left;
+}
+.desc p{
+    float: left;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.like:active{
+    color: red;
+}
